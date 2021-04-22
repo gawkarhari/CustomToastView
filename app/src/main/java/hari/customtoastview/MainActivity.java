@@ -24,6 +24,8 @@ Button b1;
                 View appear=lin.inflate(R.layout.toastcustom, (ViewGroup) findViewById(R.id.toast_linear));
                 t.setView(appear);
                 t.show();
+                android.widget.Toast.makeText(this, "test", Toast.LENGTH_SHORT).show();
+                android.widget.Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
             }
         });
     }
